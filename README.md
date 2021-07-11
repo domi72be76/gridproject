@@ -2,7 +2,7 @@
 
 # About
 A re-usable datagrid component in React/Typescript hosted by a light-weight server using node.js.\
-You cam have an onverview by looking to the images in the screenhot/ folder. 
+You can have an overview by looking to the images in the screenshot/ folder. 
 
 ## Features
 - Handles 100,000s of rows.
@@ -11,8 +11,8 @@ You cam have an onverview by looking to the images in the screenhot/ folder.
 - Allow sorting by clicking on columns.
 - Don't use a 3rd party data grid library.
 
-## Prerequisites
-You need to previouly installedthose tools.
+## Requirements
+You need to previously installed those tools.
 
 Git, Node, NPM, and Typescript
 
@@ -30,7 +30,7 @@ npm install\
 npx tsc server.ts 
 
 ## Run
-One'S the installton is completed, run the below command.
+One's the install is completed, run the below command.
 
 node server.js 
 
@@ -43,18 +43,18 @@ http://localhost:4000/ \
 or \
 http://<MACHIME_IP>:4000/
 
-Than you can: 
-- click on the column titles to toggle the order.v
-- scroll down as you want to see the complet dataset.
+Then you can: 
+- click on the column titles to switch the order.
+- scroll down as you want to see the full dataset.
 
 ### BackEnd API
-You can access diretly the data with the below UEL.
+You can access diretly the data with the below URL.
 
 http://localhost:4000/api/people \
 or \
 http://<MACHIME_IP>:4000/api/people
 
-You can customize the result be adding those parameter in thw URL.
+You can customize the result be adding those parameters in the URL.
 - page, default 1
 - limit, default 20
 - ordercol
@@ -66,18 +66,18 @@ http://localhost:4000/api/people?limit=1
 
 ## To change DataSet
 Manually rename the file dataset/people-100k.json to something else.\
-Than set the name of another dataset to dataset/people-100k.json.\
+Then set the name of another dataset to dataset/people-100k.json.\
 After stop/start the server and go back to the browser to see the change.
 
 ## Troubleshooting
 
 ### On Install
-If the server.ts don't compile try
+If the server.ts doesn't compile, try
 
 npm install typescript\
 npm install --save-dev @types/node
 
 ### On Running
-If the server.js don's start  try
+If the server.js doesn't start, try
 
 npm install express
