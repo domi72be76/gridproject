@@ -35,8 +35,10 @@ One'S the installton is completed, run the below command.
 node server.js 
 
 ## Access
-###FrontEnd Interface
+
+### FrontEnd Interface
 Open a Web Browser and enter this URL.
+
 http://localhost:4000/
 or
 http://<MACHIME_IP>:4000/
@@ -61,17 +63,22 @@ You can customize the result be adding those parameter in thw URL.
 Like:
 http://localhost:4000/api/people?limit=1
 
-### To change DataSet
+
+## To change DataSet
 Manually rename the file dataset/people-100k.json to something else.
 Than set the name of another dataset to dataset/people-100k.json.
 After stop/start the server and go back to the browser to see the change.
+
 
 ## Troubleshooting
 
 ### On Install
 If the server.ts don't compile try
+
 npm install typescript
 npm install --save-dev @types/node
 
 ### On Running
 If the server.js don's start  try
+
+npm install express
