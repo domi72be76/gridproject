@@ -39,28 +39,28 @@ node server.js
 ### FrontEnd Interface
 Open a Web Browser and enter this URL.
 
-http://localhost:4000/\
-or\
+http://localhost:4000/ \
+or \
 http://<MACHIME_IP>:4000/
 
-Than you can:\
+Than you can: 
 - click on the column titles to toggle the order.v
 - scroll down as you want to see the complet dataset.
 
 ### BackEnd API
 You can access diretly the data with the below UEL.
 
-http://localhost:4000/api/people\
-or\
+http://localhost:4000/api/people \
+or \
 http://<MACHIME_IP>:4000/api/people
 
-You can customize the result be adding those parameter in thw URL.\
-- page, default 1\
-- limit, default 20\
-- ordercol\
+You can customize the result be adding those parameter in thw URL.
+- page, default 1
+- limit, default 20
+- ordercol
 - orderway
 
-Like:\
+Like: \
 http://localhost:4000/api/people?limit=1
 
 
