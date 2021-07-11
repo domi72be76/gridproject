@@ -20,7 +20,7 @@ Git, Node, NPM, and Typescript
 ## Install
 Run the below commands.
 
-git clone https://github.com/domi72be76/gridproject.git\
+git clone https://github.com/domi72be76/gridproject.git \
 cd gridproject\
 cd client\
 npm install\
